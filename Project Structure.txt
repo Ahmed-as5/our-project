@@ -1,0 +1,8 @@
+backend/
+├── models/
+│   └── pipeline.joblib      # Your saved scikit-learn Pipeline
+├── app/
+│   ├── __init__.py
+│   └── main.py              # FastAPI app, lifespan model loading, /classify endpoint
+├── requirements.txt
+└── .env.example
